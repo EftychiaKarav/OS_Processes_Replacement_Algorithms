@@ -1,4 +1,4 @@
-# Interprocess Communication (IPC) in Linux OS
+# Simulation Of Memory Management with Replacement Algorithms in Linux OS
 
 
 ## Development Environment
@@ -13,7 +13,7 @@ The code was tested in Linux systems. More specifically, the software used was:
 The purpose of this project is to simulate the behavior of a memory management system based on real trace reports. Two file reports with memory traces are given: **bzip.trace** and **gcc.trace**. Each file contains several lines. These are hexadecimal memory references followed by ***R*** or ***W*** indicating whether it is for writing or reading.
 
 ### How it works:
-* The simulator will read the file and run the virtual memory mechanism. The virtual memory is represented by a hashed page table. The simulator needs to know which pages have been loaded into main memory. 
+* The simulator reads the file and run the virtual memory mechanism. The virtual memory is represented by a hashed page table. The simulator needs to know which pages have been loaded into main memory. 
 
 * When a reference trace is found, the simulator checks if that page is in main memory. If there is space in the memory, the page is added. If the page is not in the memory and the memory is already full, the simulator decides which page to remove (page replacement). 
 
