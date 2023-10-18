@@ -1,4 +1,3 @@
-//KARAVANGELI EFTYCHIA - 1115201800062
 #include "Structures.h"
 
 //run the procedure
